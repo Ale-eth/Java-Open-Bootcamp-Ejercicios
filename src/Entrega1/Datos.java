@@ -8,7 +8,7 @@ public class Datos {
         long dni = 54347655;
         double peso = 72.4;
         boolean casado = true;
-        char inicialNombre = J;
+        char inicialNombre = 'J';
 
     }
 }
