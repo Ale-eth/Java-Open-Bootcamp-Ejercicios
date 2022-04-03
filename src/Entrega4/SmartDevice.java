@@ -2,9 +2,9 @@ package Entrega4;
 
 public class SmartDevice {
 
-    String marca;
-    String material;
-    int id;
+     static String marca;
+     static String material;
+     static int id;
 
     public SmartDevice(String marca, String material, int id){
         this.marca = marca;

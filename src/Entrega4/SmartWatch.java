@@ -2,10 +2,11 @@ package Entrega4;
 
 public class SmartWatch extends SmartDevice{
 
-    String modelo;
-    String tipoAlimentacion;
+     private String modelo;
+     private String tipoAlimentacion;
 
-    public SmartWatch(String modelo, String tipoAlimentacion){
+    public SmartWatch(String marca, String material, int id, String modelo, String tipoAlimentacion){
+        super(marca, material, id);
         this.modelo = modelo;
         this.tipoAlimentacion = tipoAlimentacion;
     }
